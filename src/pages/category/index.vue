@@ -22,8 +22,7 @@
               <li class="cate3"
                   v-for="(cate3, index3) in cate2.children"
                   :key="index3">
-                <img :src="cate3.cat_icon"
-                     alt="">
+                <img :src="cate3.cat_icon">
                 <span>{{cate3.cat_name}}</span>
               </li>
             </ul>
